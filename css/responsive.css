@@ -1,0 +1,239 @@
+@media(min-width:1200px){}
+
+@media(min-width:992px) and (max-width:1199px){}
+
+@media(min-width:768px) and (max-width:991px){
+    header #navigation{
+        background: #e23e38;
+        top: 15px;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link{
+        padding: 0 12px;
+        font-size: 13px;
+    }
+    header #navigation nav .navbar-brand{
+        padding: 5px 20px;
+        position: relative;
+    }
+    header #navigation nav .navbar-brand img{
+        height: 40px;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link::after {
+        background: #444;
+    }
+    #banner h3{
+        font-size: 24px;
+    }
+    #banner h1{
+        font-size: 48px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #banner p{
+        padding-bottom: 17px;
+    }
+    #banner .overlay{
+        padding: 190px 0 70px;
+    }
+    #banner .text-center::after {
+        left: 33px;
+        top: 8px;
+    }
+    #banner .text-center::before {
+        left: 31px;
+        height: 87%;
+        top: 8px;
+    }
+    #banner .slider-one .text::before {
+        left: 16px;
+        width: 20.5%;
+    }
+    #banner .slider-one .bnr-content::after {
+        right: 11px;
+        width: 25%;
+        top: 36px;
+    }
+    #banner .slider-one .bnr-content::before {
+        height: 77%;
+        top: 36px;
+        right: 8px;
+    }
+    #banner .slider-one .text::after {
+        right: 8px;
+        width: 19%;
+    }
+/* banner ends */
+    #about{
+        padding: 50px 0;
+    }
+    #about p{
+        padding-top: 15px;
+    }
+    #about .video{
+        margin-top: 40px;
+    }
+    #about .video img{
+        width: 100%;
+    }
+    #gallery .gallery-image{
+        margin-top: 20px;
+    }
+    #team{
+        padding: 50px 0 0;
+    }
+    #team .team-part .slick-list{
+        padding-top: 50px;
+    }
+    #team .team-part figure{
+        margin: 0;
+    }
+    #testimonial .testimonial-slide .text p{
+        padding-top: 30px;
+    }
+    #counter{
+        text-align: center;
+    }
+    #counter .second h4, #counter .second p{
+        margin-left: 0;
+    }
+    #classes .tab-content ul li{
+        width: 25%;
+    }
+}
+/* medium device ends */
+
+
+
+@media(min-width:576px) and (max-width:767px){
+    header #navigation{
+        background: #e23e38;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+    }
+    header #navigation nav .navbar-brand{
+        position: relative;
+        padding: 5px 20px;
+    }
+    header #navigation nav .navbar-brand img{
+        height: 40px;
+    }
+    header #navigation .navbar-toggler{
+        border: 0;
+    }
+    header #navigation .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        line-height: 34px;
+        font-size: 13px;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link:hover, header #navigation nav .navbar-nav .nav-item .nav-link.active{
+        background: none;
+    }
+    .navbar-nav{
+        border-top: 1px solid rgba(255, 255, 255,0.3);
+        padding: 20px 0;
+    }
+    #banner .overlay{
+        padding: 212px 0 56px;
+    }
+    #about .video{
+        margin-top: 40px;
+    }
+    #counter{
+        text-align: center;
+    }
+    #counter .second h4, #counter .second p{
+        margin-left: 0;
+    }
+    #counter h4{
+        font-size: 30px;
+    }
+    #classes .tab-content ul li{
+        width: 33.33%;
+    }
+}
+
+
+
+
+@media(min-width:320px) and (max-width:575px){
+    header #navigation{
+        background: #e23e38;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+    }
+    header #navigation nav .navbar-brand{
+        position: relative;
+        padding: 5px 20px;
+    }
+    header #navigation nav .navbar-brand img{
+        height: 40px;
+    }
+    header #navigation .navbar-toggler{
+        border: 0;
+    }
+    header #navigation .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        line-height: 34px;
+        font-size: 13px;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link:hover, header #navigation nav .navbar-nav .nav-item .nav-link.active{
+        background: none;
+    }
+    .navbar-nav{
+        border-top: 1px solid rgba(255, 255, 255,0.3);
+        padding: 20px 0;
+    }
+    #banner .overlay{
+        padding: 120px 0 70px;
+    }
+    #banner h3{
+        font-size: 20px;
+    }
+    #banner h1{
+        font-size: 44px;
+    }
+    #banner .text-center::after,
+    #banner .text-center::before,
+    #banner .slider-one .text::before,
+    #banner .slider-one .bnr-content::after,
+    #banner .slider-one .bnr-content::before,
+    #banner .slider-one .text::after{
+        display: none;
+    }
+    #counter{
+        text-align: center;
+    }
+    #counter h4{
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    #counter p{
+        font-size: 14px;
+    }
+    #counter .overlay{
+        padding: 10px 0 30px;
+    }
+    #classes .tab-content ul li{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
